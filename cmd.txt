@@ -1,0 +1,22 @@
+npm init -y
+npm i -g typescript
+tsc --init
+npm i -D webpack webpack-cli webpack-dev-server
+npm i -D ts-loader typescript
+npm i -D html-webpack-plugin
+npm i -D webpack-merge
+npm i -D clean-webpack-plugin
+
+npm i -D ts-node
+npm i -D jquery
+npm i -D @types/jquery
+npm i -D moment
+
+npm i -D eslint
+npm i -D @typescript-eslint/eslint-plugin
+npm i -D @typescript-eslint/parser
+
+// npx ts-jest config:init
+npm i --save-dev jest
+npm i --save-dev @types/jest
+npm i --save-dev ts-jest
